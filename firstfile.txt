@@ -5,8 +5,6 @@ firastnkj
 khchxhx
 
 hallo
-
-
 jana
 
 #!/bin/sh
@@ -17,3 +15,5 @@ append_path () {
 
 popd
 vjc,gc,jgc,jg
+
+tckgkjhvli
