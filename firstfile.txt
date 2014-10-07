@@ -11,6 +11,9 @@ jana
 
 #!/bin/sh
 
+append_path () {
+  input="$1"
+
 
 popd
 vjc,gc,jgc,jg
