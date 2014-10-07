@@ -13,3 +13,4 @@ jana
 
 
 popd
+vjc,gc,jgc,jg
