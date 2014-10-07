@@ -10,19 +10,6 @@ hallo
 
 append_path () {
   input="$1"
-  value="$2"
-  if ! echo $input | /usr/bin/egrep -q "(^|:)$value($|:)" ; then
-     if [ "$3" = "after" ] ; then
-        echo $input:$value
-     else
-        echo $value:$input
-     fi
-  else
-    echo $input
-  fi
-}
-
-
 
 append_plist_var PATH "/usr/local/git/bin" "/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin"
 
